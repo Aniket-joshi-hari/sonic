@@ -1,0 +1,38 @@
+.Header{
+ background:#1a1a1a;
+ min-height: 100px;
+ width:100%;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+}
+.Header-Inner-Container{
+    width:80%;
+    margin:auto;
+}
+a{
+    color:#cccccc !important;
+  
+}
+a:hover{
+    color: #fff !important;
+}
+.ui.secondary.menu .item{
+    color:#fff;
+    padding:.97857143em 1.2em;
+    font-family: Arial,Helvetica,sans-serif;
+    -webkit-transition: color .1s ease;
+    transition: color .1s ease;
+    border-radius: .28571429rem;
+
+}
+.ui.menu{
+    font-size: 1.1rem;
+    color: #cccccc;
+}
+.header-button{
+    border: 1px solid #fff;
+    background-color: black;
+    color:#fff;
+    padding:10px;
+}
